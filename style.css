@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/*
+# id
+. class
+: pseudo-class
+:: pseudo-elemnt
+= clildren
+*/
+*{
+   margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, #419cfd, #006CE0, #0e1270);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-attachment: fixed;
+    margin: 0px;
+    max-width: 1060px;
+    min-width: 320px;
+    margin: auto;
+   }
+   header{
+      background-color: azure;
+      margin: auto;
+   }
+
+   header h2{
+      text-align: center;
+      font-size: 30px
+   }
+   nav#cabecalho{
+      background-color: #020558;
+      padding: 3px;
+   }
+   nav#cabecalho > a{
+      color: white;
+      font-size: 15px;  
+      margin: 5px;
+      padding: 7px 15px 5px 15px;
+      transition-duration: 0.4s;
+   }
+   nav#cabecalho > a:hover{
+      background-color: #89b5e4;
+      color:#020558
+   }
+   nav#cabecalho > a:active{
+      color: yellow;
+   }
+   
+main{
+   background-color: white;
+   box-shadow: 7px 10px 15px #0e1170b9;
+   padding: 10px;
+   margin: auto;
+   min-height: 950px;
+}
+
+main > picture > img{
+   display: block;
+   margin: auto;
+}
+
+main img.inicio{
+   display: block;
+   margin: auto;
+   width: 100%;
+   
+}
+
+main video{
+   width: 92%;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+main audio{
+   margin: 10px;
+}
+
+div.iframe{
+   margin: 0px -10px 10px -10px;
+   padding-bottom: 57.5%;
+   position: relative;
+}
+div.iframe > iframe{
+   position: absolute;
+   top: 5%;
+   left:5%;
+   height: 90%;
+   width: 90%;
+}
+footer{
+   background-color: black;
+   padding-bottom: 10px;
+
+}
+
+h1#rodape{
+   color: white;
+   font-size: 25px;
+}
+h2#rodape{
+   margin-left: 5px;
+   color: white;
+   font-size: 20px;
+}
+
+nav#rodape{
+    
+   border-radius: 0px 0px 10px 10px;
+   
+}
+
+nav#rodape > a{
+display: block;
+color: white;
+font-size: 15px;
+margin-bottom: 15px;
+margin-top: 5px;
+width: 0px;
+margin-left: 5px;
+}
+nav#rodape > a:hover{
+   color: #d8ae04;
+}
+nav#rodape > a:active{
+   color: yellow;
+}
+
+
+
+   h1{
+      font-size: 3em;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(2, 2, 77);
+      text-align: center;
+      text-shadow: 2px 2px 2px rgba(2, 2, 46, 0.61);
+   }
+   h2{
+      font-size: 1.8em;
+      font-family: 'Times New Roman', Times, serif;
+      color: darkblue;
+      
+   }
+   h3{
+      font-size: 1.4em;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(23, 23, 128);
+   }
+   p{
+      text-align: justify;
+      text-indent: 15px;
+      margin: 10px 0px 10px 0px;
+   }
+   a{
+      color: #006CE0;
+      text-decoration: none;
+   }
+   a:visited{
+      color: #0e1270;
+   }
+   a:hover{
+      color: #d8ae04;
+   }
+   a:active{
+      color: yellow;
+   }
+   p > pre{
+      text-align: justify;
+      max-width: 1060px;
+   }
+
+   abbr{
+      text-decoration: underline;
+   }
+   
