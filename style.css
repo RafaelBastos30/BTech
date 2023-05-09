@@ -54,6 +54,9 @@ main{
    max-width: 1200px;
    min-width: 320px;
 }
+main a{
+color: #000000
+}
 
 main > picture > img{
    display: block;
