@@ -58,6 +58,9 @@ main{
 main > h2{
    padding-top: 25px;
 }
+main a{
+color: #000000
+}
 
 main > picture > img{
    display: block;
