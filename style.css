@@ -162,20 +162,20 @@ nav#rodape > a:active{
       
    }
    a{
-      color: #006CE0;
+      color: #000000;
       text-decoration: none;
    }
    a:visited{
-      color: #0e1270;
+      color: #000000;
    }
    a:hover{
-      color: #d8ae04;
+      color: #5e5e5e;
    }
    a:active{
-      color: yellow;
+      color: rgb(63, 63, 63);
    }
    ::selection{
-      background: #cde2f8;
+      background: #9c9c9c;
       color: #000000;
    }
    p > pre{
