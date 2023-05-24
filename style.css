@@ -67,11 +67,16 @@ main > picture > img{
    margin: auto;
 }
 
-main img.inicio{
+main img{
    display: block;
    margin: auto;
-   width: 80%;
+   width: 35%;
    
+}
+main img.inicio{
+      display: block;
+      margin: auto;
+      width: 80%;
 }
 
 main video{
@@ -85,7 +90,17 @@ main video{
 main audio{
    margin: 10px;
 }
-
+section{
+   background-color: #49494960;
+   width: 90%;
+   border-radius: 8px 8px 8px 8px;
+}
+section.lista h3{
+   background-image: linear-gradient(to right,#3f3f3fb7,#49494960);
+   color: #1b1b1b;
+   padding: 5px 0px 5px 10px;
+   border-radius: 8px 8px 0px 0px;
+}
 div.iframe{
    margin: 0px -10px 10px -10px;
    padding-bottom: 57.5%;
@@ -156,7 +171,7 @@ nav#rodape > a:active{
    h3{
       font-size: 1.4em;
       font-family: Arial, Helvetica, sans-serif;
-      color: rgb(23, 23, 128);
+      color: rgb(0, 0, 0);
    }
    p{
       text-align: justify;
@@ -172,7 +187,7 @@ nav#rodape > a:active{
       color: #000000;
    }
    a:hover{
-      color: #5e5e5e;
+      color: #ffffff;
    }
    a:active{
       color: rgb(63, 63, 63);
