@@ -70,7 +70,8 @@ main > picture > img{
 main img{
    display: block;
    margin: auto;
-   width: 35%;
+   width: 50%;
+   
    
 }
 main img.inicio{
@@ -206,3 +207,15 @@ nav#rodape > a:active{
       text-decoration: underline;
    }
    
+   table.estilo{
+      width: 400px;
+      border-collapse: collapse;
+      margin: 5px 0px 15px 5px;
+   }
+   td.estilo{
+      border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 4px;
+   }

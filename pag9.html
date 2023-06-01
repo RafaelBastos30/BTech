@@ -20,24 +20,28 @@
         <h2>Criando tabelas em HTML</h2>
         <p>Tabelas podem ser importante para demostrar comparações de dados, como por exemplo a tabela a seguir:</p>
         <img src="imagens/Exemplodetabela.jpeg" alt="Imagem de uma tabela">
-        <p>Para criarmos uma tabela em html utilizamos o comando é recomendado criar uma <strong>tag table</strong>, apos isso criamos as linhas com a <strong>tag tr</strong>, nela criamos as células com a <strong>tag td</strong>!</p>
-        <p>oque deixaria o código assim:</p>
-        <p>&lt;table&gt;</p>
-        <p>&lt;tr&gt;</p>
-        <p>&lt;td&gt;A1&lt;/td&gt;</p>
-        <p>&lt;td&gt;B1&lt;/td&gt;</p>
-        <p>&lt;td&gt;c1&lt;/td&gt;</p>
-        <p>&lt;/tr&gt;</p>
-        <p>&lt;tr&gt;</p>
-        <p>&lt;td&gt;A2&lt;/td&gt;</p>
-        <p>&lt;td&gt;B2&lt;/td&gt;</p>
-        <p>&lt;td&gt;c2&lt;/td&gt;</p>
-        <p>&lt;/tr&gt;</p>
-        <p>&lt;tr&gt;</p>
-        <p>&lt;td&gt;A3&lt;/td&gt;</p>
-        <p>&lt;td&gt;B3&lt;/td&gt;</p>
-        <p>&lt;td&gt;c3&lt;/td&gt;</p>
-        <p>&lt;/tr&gt;</p>
+        <h3>Criando uma tabela simples</h3>
+        <p>Para criarmos uma tabela simples em html utilizamos o comando é recomendado criar uma tag <strong>table</strong>, apos isso criamos as linhas com a tag <strong>tr</strong>, nela criamos as células com a tag <strong>td</strong>!</p>
+        <p>Oque deixaria o código assim:</p>
+        <pre>
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;A1&lt;/td&gt;
+            &lt;td&gt;B1&lt;/td&gt;
+            &lt;td&gt;c1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;A2&lt;/td&gt;
+            &lt;td&gt;B2&lt;/td&gt;
+            &lt;td&gt;c2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;A3&lt;/td&gt;
+            &lt;td&gt;B3&lt;/td&gt;
+            &lt;td&gt;c3&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+        </pre>
         <p>Oque resultaria nisso:</p>
         <table>
             <tr>
@@ -55,6 +59,68 @@
                 <td>B3</td>
                 <td>c3</td>
             </tr>
+        </table>
+        <p>Porém, para deixarmos isso com cara de tabela vamos precisar utilizar estilos <a href="css3.html">CSS3</a>!</p>
+        <table class="estilo">
+            <tr class="estilo">
+                <td class="estilo">A1</td>
+                <td class="estilo">B1</td>
+                <td class="estilo">c1</td>
+            </tr>
+            <tr class="estilo">
+                <td class="estilo">A2</td>
+                <td class="estilo">B2</td>
+                <td class="estilo">c2</td>
+            </tr>
+            <tr class="estilo">
+                <td class="estilo">A3</td>
+                <td class="estilo">B3</td>
+                <td class="estilo">c3</td>
+            </tr>
+        </table>
+        <h3>Criando uma tabela grande</h3>
+        <p>Para criarmos tabelas mais <strong>complexas</strong> precisaremos ultilizar tags semelhantes a aquelas utilizadas no body, como &lt;header&gt;, &lt;main&gt; e &lt;footer&gt;, porém para tabelas estas segues são: &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt;! </p>
+        <p>Observe a seguir como sería escrito o código:</p>
+        <pre>
+    &lt;table&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;td&gt;A&lt;/td&gt;
+                &lt;td&gt;B&lt;/td&gt;
+                &lt;td&gt;c&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;A1&lt;/td&gt;
+                    &lt;td&gt;B1&lt;/td&gt;
+                    &lt;td&gt;c1&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;A2&lt;/td&gt;
+                    &lt;td&gt;B2&lt;/td&gt;
+                    &lt;td&gt;c2&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;A3&lt;/td&gt;
+                    &lt;td&gt;B3&lt;/td&gt;
+                    &lt;td&gt;c3&lt;/td&gt;
+                &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;tfoot&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+        </pre>
     </main>
+    <footer>
+        <h1 id="rodape">Btech</h1>
+        <h2 id="rodape">Contato:</h2>
+        <nav id="rodape">
+            <a href="https://www.instagram.com/rafael_bastoos/" target="_blank" rel="external">Instagram</a>
+            <a href="">Youtube</a>
+            <a href="">Facebook</a>
+            
+        </nav>
+    </footer>
 </body>
 </html>
