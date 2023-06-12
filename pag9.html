@@ -111,6 +111,71 @@
         &lt;/tfoot&gt;
     &lt;/table&gt;
         </pre>
+        <p>Que resultaria na tabela a seguir:</p>
+        <table class="estilo">
+            <thead>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>A1</td>
+                        <td>B1</td>
+                        <td>C1</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>B2</td>
+                        <td>C2</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>B3</td>
+                        <td>C3</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    <p>Apesar de aparentar ser igual às tabelas anteriores, a maneira a qual ela foi construida é ideal para desenvolver tabelas que possam ser mais complexas, alem de dar diferentes possibilidades de estilos. Por isso é indicado construir tabelas utilizando o último método.</p>
+    <p>Existe também a tag &lt;caption&gt; que seria o título da nossa tabela, como no exemplo a seguir:</p>
+    <table class="estilo">
+        <caption>Exemplo de tabela</caption>
+        <thead>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>C1</td>
+                </tr>
+                <tr>
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>C2</td>
+                </tr>
+                <tr>
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td>C3</td>
+                </tr>
+        </tbody>
+        </table>
+        <p>Nas tabelas nos tambem possuimos a tag &lt;scope&gt; que serve de escopo para os nossos dados.</p>
+        <p>Existem 2 tipos basicos de &lt;scope&gt;, sendo eles;</p>
+        <p>&lt;scope="col"&gt;</p>
+        <p>&lt;scope="row"&gt;</p>
+        <p>Eles tem a função de indicar a quem está se referindo o &lt;th&gt;, que seria o titulo das colunas e ou linhas.</p>
+        <p>&lt;scope="col"&gt; serve para indicar que esse &lt;th&gt; é o título de uma coluna.</p>
+        <p>&lt;scope="row"&gt; serve para indicar que esse &lt;th&gt; é o título de uma linha.</p>
     </main>
     <footer>
         <h1 id="rodape">Btech</h1>
