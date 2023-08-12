@@ -20,16 +20,23 @@ body{
    header{
       background-color: rgb(255, 255, 255);
       margin: auto;
+      height: 15vh;
+     font-size: 2vh;
    }
 
    header h2{
       text-align: center;
-      font-size: 22px
+      font-size: 2vh;
+
+   }
+   header h3{
+      padding: 1vh 0vh 0vh 1vh;
+     font-size: 2vh; 
    }
    nav#cabecalho{
       background-color: #000000;
       padding: 3px 3px 5px 3px;
-      
+      display: block;
       
    }
    nav#cabecalho > a{
@@ -70,7 +77,7 @@ main > picture > img{
 main img{
    display: block;
    margin: auto;
-   width: 50%;
+   width: 40%;
    
    
 }
@@ -157,6 +164,7 @@ nav#rodape > a:active{
 
 
    h1{
+      padding-top: 5px;
       font-size: 3em;
       font-family: Arial, Helvetica, sans-serif;
       color: rgb(33, 33, 41);
