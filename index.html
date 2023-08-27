@@ -15,7 +15,7 @@
 <nav id="cabecalho">
     <a href="html5.html"> HTML5</a>
     <a href="http://">CSS3</a>
-    <a href="http://">JavaScript</a>
+    <a href="JS.html">JavaScript</a>
     
 </nav>
     </header>
@@ -38,7 +38,13 @@
         </nav>
     </footer>
 <script>
-    alert("Fala meu nobre!")
+   var nome = prompt("Fala meu nobre! Qual seu nome?");
+   alert("Olá "+nome+"! Seja bem vindo!");
+   var n1 = Number(prompt(nome+", preciso que você digite um número:")); //Prompt sempre recebe STRING
+   var n2 = Number(prompt(nome+", preciso que você digite outro número:"));
+   n3 = n1 + n2;
+   alert("A soma dos números é igual a: "+n3)
+   confirm("blz?")
 </script>
 </body>
 </html>

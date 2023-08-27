@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/*
+# id
+. class
+: pseudo-class
+:: pseudo-elemnt
+= clildren
+*/
+*{
+   margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, #ffffff,#ffffff ,#c9c9c9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-attachment: fixed;
+    
+   }
+   header{
+      background-color: rgb(255, 255, 255);
+      margin: auto;
+      height: 15vh;
+     font-size: 2vh;
+   }
+
+   header h2{
+      text-align: center;
+      font-size: 2vh;
+
+   }
+   header h3{
+      padding: 1vh 0vh 0vh 1vh;
+     font-size: 2vh; 
+   }
+   nav#cabecalho{
+      background-color: #000000;
+      padding: 3px 3px 5px 3px;
+      display: block;
+      
+   }
+   nav#cabecalho > a{
+      color: white;
+      font-size: 15px;  
+      margin: 5px;
+      padding: 7px 15px 7px 15px;
+      transition-duration: 0.4s;
+   }
+   nav#cabecalho > a:hover{
+      background-color: #a5a5a5;
+      color:#000000
+   }
+   nav#cabecalho > a:active{
+      color: rgb(255, 255, 255);
+   }
+   
+main{
+   background-color: white;
+   padding: 0px 10px 0px 10px;
+   margin: auto;
+   min-height: 100vh;
+   max-width: 1200px;
+   min-width: 320px;
+}
+main > h2{
+   padding-top: 25px;
+}
+main a{
+color: #000000
+}
+
+main > picture > img{
+   display: block;
+   margin: auto;
+}
+
+main img{
+   display: block;
+   margin: auto;
+   width: 40%;
+   
+   
+}
+main img.inicio{
+      display: block;
+      margin: auto;
+      width: 80%;
+}
+
+main video{
+   width: 92%;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+main audio{
+   margin: 10px;
+}
+section{
+   background-color: #49494960;
+   width: 90%;
+   border-radius: 8px 8px 8px 8px;
+}
+section.lista h3{
+   background-image: linear-gradient(to right,#3f3f3fb7,#49494960);
+   color: #1b1b1b;
+   padding: 5px 0px 5px 10px;
+   border-radius: 8px 8px 0px 0px;
+}
+div.iframe{
+   margin: 0px -10px 10px -10px;
+   padding-bottom: 57.5%;
+   position: relative;
+}
+div.iframe > iframe{
+   position: absolute;
+   top: 5%;
+   left:5%;
+   height: 90%;
+   width: 90%;
+}
+footer{
+   background-color: black;
+   padding-bottom: 10px;
+
+}
+
+h1#rodape{
+   color: white;
+   font-size: 25px;
+}
+h2#rodape{
+   padding-left: 10px;
+   color: white;
+   font-size: 20px;
+   padding-bottom: 5px;
+   padding-top: 0px;
+}
+
+nav#rodape{
+    
+   border-radius: 0px 0px 10px 10px;
+   
+}
+
+nav#rodape > a{
+display: block;
+color: white;
+font-size: 15px;
+margin-bottom: 15px;
+margin-top: 5px;
+width: 0px;
+margin-left: 10px;
+}
+nav#rodape > a:hover{
+   color: #a5a5a5;
+}
+nav#rodape > a:active{
+   color: rgb(78, 78, 78);
+}
+
+
+
+   h1{
+      padding-top: 5px;
+      font-size: 3em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(33, 33, 41);
+      text-align: center;
+      
+   }
+   h2{
+      font-size: 1.8em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(80, 80, 83);
+      
+   }
+   h3{
+      font-size: 1.4em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+   }
+   p{
+      text-align: justify;
+      text-indent: 15px;
+      padding: 10px 0px 10px 0px;
+      
+      
+   }
+   a{
+      color: #000000;
+      text-decoration: none;
+   }
+   a:visited{
+      color: #000000;
+   }
+   a:hover{
+      color: #e0e0e0;
+   }
+   a:active{
+      color: rgb(63, 63, 63);
+   }
+   ::selection{
+      background: #9c9c9c;
+      color: #000000;
+   }
+   p > pre{
+      text-align: justify;
+      max-width: 1060px;
+   }
+
+   abbr{
+      text-decoration: underline;
+   }
+   
+   table.estilo{
+      width: 400px;
+      border-collapse: collapse;/*Para remover o espaço entre as células*/
+      margin: 5px 0px 15px 5px;
+   }
+   td.estilo{
+      border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 4px;
+   }
+   thead{
+      border: 4px solid rgb(0, 0, 0);
+   }
+   thead td{
+      border: 4px solid rgb(0, 0, 0);
+      text-align: center;
+      text-decoration: solid;
+      background-color: #9c9c9c;
+   }
+   tbody{
+      border: 3px solid black;
+   }
+   tbody td{
+      border: 3px solid black;
+      text-align: center;
+   }
