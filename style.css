@@ -22,6 +22,7 @@ body{
       margin: auto;
       height: 15vh;
      font-size: 2vh;
+     padding-bottom: 10px;
    }
 
    header h2{

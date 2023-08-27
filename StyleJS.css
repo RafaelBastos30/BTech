@@ -11,43 +11,48 @@
    margin: 0px;
 }
 body{
-    background-image: linear-gradient(to bottom, #ffffff,#ffffff ,#c9c9c9);
+    background-image: linear-gradient(to bottom, #f0e8a0,#f0ee77 ,#f5e502);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-attachment: fixed;
     
    }
    header{
-      background-color: rgb(255, 255, 255);
+      background-color: #1f1e1e;
       margin: auto;
       height: 15vh;
      font-size: 2vh;
    }
-
-   header h2{
+   header h1{
       text-align: center;
-      font-size: 2vh;
-
+      color: #f6fa02;
+      font-size: 5vh;
+   }
+   header h2{
+      text-align:center;
+      font-size: 3vh;
+      color: #f5e502;
    }
    header h3{
       padding: 1vh 0vh 0vh 1vh;
      font-size: 2vh; 
+     color: #f5e502;
    }
    nav#cabecalho{
-      background-color: #000000;
+      background-color: #252525;
       padding: 3px 3px 5px 3px;
       display: block;
       
    }
    nav#cabecalho > a{
-      color: white;
+      color: #fbff00;
       font-size: 15px;  
       margin: 5px;
       padding: 7px 15px 7px 15px;
       transition-duration: 0.4s;
    }
    nav#cabecalho > a:hover{
-      background-color: #a5a5a5;
+      background-color: #f6fa02;
       color:#000000
    }
    nav#cabecalho > a:active{
@@ -99,13 +104,13 @@ main audio{
    margin: 10px;
 }
 section{
-   background-color: #49494960;
+   background-color: #f8f8e8;
    width: 90%;
    border-radius: 8px 8px 8px 8px;
 }
 section.lista h3{
-   background-image: linear-gradient(to right,#3f3f3fb7,#49494960);
-   color: #1b1b1b;
+   background-color: #2c2c2c;
+   color: #f9fd00;
    padding: 5px 0px 5px 10px;
    border-radius: 8px 8px 0px 0px;
 }
@@ -194,16 +199,16 @@ nav#rodape > a:active{
       text-decoration: none;
    }
    a:visited{
-      color: #000000;
+      color: #020003;
    }
    a:hover{
-      color: #e0e0e0;
+      color: #ffe600;
    }
    a:active{
-      color: rgb(63, 63, 63);
+      color: rgb(230, 220, 80);
    }
    ::selection{
-      background: #9c9c9c;
+      background: #fffb02;
       color: #000000;
    }
    p > pre{
