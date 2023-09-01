@@ -45,7 +45,7 @@
             <p>Neste caso pusemos o prompt dentro do comando "<strong>Number</strong>" para transformarmoso dado em um número, já que como foi dito no ensinamento sobre janelas, tudo que é digitado lá se torna altomaticamente uma <strong>string</strong>!</p>
             <p>Criamos a variavel n3 para receber o valor da soma de n1 e n2!</p>
             <p>E por fim criamos um <strong>alert</strong> para nos mostrar o resultado da soma! no fim do texto você pode observar que pusemos o seguinte comando:</p>
-            <h3>+n3</h3>
+                <h3>+n3</h3>
             <p>Nesta situação o <strong>+</strong> não serve para adição, e sim para concatenação, sendo assim, ao abrir e ou ao fechar aspas nós temos que por um <strong>+</strong> para concatenar com nossa variavel. seja ela <strong>string</strong> ou <strong>number</strong>, e exibila!</p>
         <h2>Dica!</h2>
             <p>Outra maneira de concatenar nossas variaveis ao exibir um texto, é utilizando o seguinte comando:</p>
@@ -56,6 +56,25 @@
                 <h3>alert("A soma dos números" +n1+ " + " +n2+ " é igual a: " +n3)</h3>
             <p>Seria transformado em:</p>
                 <h3>alert("A soma dos números ${n1} + ${n2} é igual a: ${n3}")</h3>
+        <h2>Comandos com variáveis String!</h2> 
+            <p>Existem alguns comandos interessantes a serem aprendidos, como por exemplo:</p>
+                <h3>document.writeln("Olá mundo!")</h3>
+            <p>Que serve para enviar um texto do javaScript para o seu documento html.</p>
+                <h3>nome_da_var<strong>.toUpperCase</strong></h3>
+            <p>Que serve para deixar todas as letras de uma string em caixa alta(maiúsculas).</p>
+                <h3>nome_da_var<strong>.toLowerCase</strong></h3>
+            <p>Para deixar todas as letras em minúsculo.</p>
+                <h3>nome_da_var.length</h3>
+            <p>Que serve para mostrar quantas letras possui uma string.</p>
+        <h2>Comandos com variáveis Number</h2>
+            <p>Existem alguns comandos interessantes a serem aprendidos, como por exemplo:</p>
+                <h3>nome_da_var.toFixed(2)</h3>
+            <p>Que serve para que sejam mostrados duas casas decimais, e não apenas uma!</p>
+                <h3>nome_da_var.replace('.' , ',')</h3>
+            <p>Que serve para que a separação das casas decimais seja feita por uma vírgula ou qualquer caractere de sua preferencia!</p>
+                <h3>nome_da_var.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})</h3>
+            <p>Que serve para que o number seja exibido como uma moeda local, que no caso do nosso exemplo é o real!</p>
+
     </main>
     <footer>
         <h1 id="rodape">Btech</h1>
