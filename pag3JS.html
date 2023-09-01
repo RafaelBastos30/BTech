@@ -21,21 +21,41 @@
         <a id="cabecalho" href="index.html">Início</a>
     </nav>
     <main>
-        <h2>Criando a estrutura do nosso código</h2>
-            <p>Para iniciarmos o nosso arquivo JavaScript é necessário que criemos uma tag munto. Sendo ela a tag a seguir:</p>
-            <h3>&lt;script&gt;</h3>
-                <p>Para indicarmos a área em que serão inseridos os conteúdos do JavaScript!</p>
+        <h2>Declarando variaveis</h2>
+            <p>Para declarar uma variavel em java script é muito simples, a princípio utilizamos o sehuinte comando:</p>
+                <h3>var nome_da_variavel = "Olá mundo!"</h3>
+                <h3>var nome_da_variavel = 5</h3>
+                <h3>var nome_da_variavel = true</h3>
+            <p>Diferente de outras linguagens, como java, no JavaScript nós não precisamos indicar que tipo de variável estamos declarando, pois o javascript é capaz de identificar automaticamente ao inserirmos o dado.</p>
                 
-        <h2>Criando nossa primeira janela!</h2>
-            <p>Dentro da nossa tag &lt;scricpt&gt; nos podemos inserir nossos comandos, como nos exemplos a seguir:</p>
-            
-            <h3>alert("olá")</h3>  
-                <p>É o comando utilizado para criar um alerta na nossa tela, contendo apenas um texto!</p>
-            <h3>prompt("Qual seu nome?")</h3>
-                <p>Para criarmos uma janela semelhante ao alerta, porem né existe uma caixa de texto para inserirmos dados.</p>
-            <h3>confirm("Você é um humano?")</h3> 
-                <p>Este comando cria uma janela de comfirmação, com botões de confirmação e negação.</p>
-        
+        <h2>Mesclando nossos conhecimentos</h2>
+            <p>Se lembra do tema anterior? A criação de janelas? Pois então, agora nós podemos armazenar os dados que são inseridos lá!</p>
+
+            <p>Para armazenar esses dádor iremos criar um prompt, só que da seguinte maneira:</p>
+                <h3>var nome = prompt("Fala meu nobre! Qual seu nome?");</h3>
+            <p>Desse modo estarei indicando que a variavel nome terá como atribuição o valor que for digitado pelo usuário!</p>
+        <h2>Indo além!</h2>
+            <p>Já que aprendemos a atribuir dados digitados nas janelas para as variáveis, que tal irmos além</p>
+            <p>Nesse exemplo iremos somar dois números digitados em prompts:</p>
+
+                <h3>var n1 = Number(prompt(nome+", preciso que você digite um número:"));</h3> 
+                <h3>var n2 = Number(prompt(nome+", preciso que você digite outro número:"));</h3>
+                <h3>n3 = n1 + n2;</h3>
+                <h3>alert("A soma dos números é igual a: "+n3)</h3>
+            <p>Neste caso pusemos o prompt dentro do comando "<strong>Number</strong>" para transformarmoso dado em um número, já que como foi dito no ensinamento sobre janelas, tudo que é digitado lá se torna altomaticamente uma <strong>string</strong>!</p>
+            <p>Criamos a variavel n3 para receber o valor da soma de n1 e n2!</p>
+            <p>E por fim criamos um <strong>alert</strong> para nos mostrar o resultado da soma! no fim do texto você pode observar que pusemos o seguinte comando:</p>
+            <h3>+n3</h3>
+            <p>Nesta situação o <strong>+</strong> não serve para adição, e sim para concatenação, sendo assim, ao abrir e ou ao fechar aspas nós temos que por um <strong>+</strong> para concatenar com nossa variavel. seja ela <strong>string</strong> ou <strong>number</strong>, e exibila!</p>
+        <h2>Dica!</h2>
+            <p>Outra maneira de concatenar nossas variaveis ao exibir um texto, é utilizando o seguinte comando:</p>
+                <h3>${nome_da_variavel}</h3>    
+            <p>Oque deicaria o comando da seguinte mandeira:</p>
+                <h3>alert("A soma dos números é igual a: ${n3}")</h3>
+            <p>Porém a utilidade desse método fica mais clara quando utilizamos mais de uma variavel, veja a seguir:</p>
+                <h3>alert("A soma dos números" +n1+ " + " +n2+ " é igual a: " +n3)</h3>
+            <p>Seria transformado em:</p>
+                <h3>alert("A soma dos números ${n1} + ${n2} é igual a: ${n3}")</h3>
     </main>
     <footer>
         <h1 id="rodape">Btech</h1>
