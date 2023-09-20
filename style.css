@@ -36,7 +36,7 @@ body{
    }
    nav#cabecalho{
       background-color: #000000;
-      padding: 3px 3px 5px 3px;
+      padding: 2px 3px 2px 3px;
       display: block;
       
    }
@@ -44,7 +44,7 @@ body{
       color: white;
       font-size: 15px;  
       margin: 5px;
-      padding: 7px 15px 7px 15px;
+      padding: 9px 10px 5px 10px;
       transition-duration: 0.4s;
    }
    nav#cabecalho > a:hover{
