@@ -191,11 +191,11 @@ nav#rodape > a:active{
       
    }
    a{
-      color: #000000;
+      color: #fc03fc;
       text-decoration: none;
    }
    a:visited{
-      color: #000000;
+      color: #15f800;
    }
    a:hover{
       color: #e0e0e0;
